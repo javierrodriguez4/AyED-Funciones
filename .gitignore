@@ -1,0 +1,11 @@
+# Ignorar todos los archivos y subdirectorios en el directorio funciones
+*
+
+# Excepto los subdirectorios
+!*/
+
+# Excepto los archivos .cpp dentro de los subdirectorios
+!*/*.cpp
+
+# Incluir el archivo .gitignore
+!.gitignore
